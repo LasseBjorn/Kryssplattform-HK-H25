@@ -2,7 +2,7 @@ import Post from '@/components/Post';
 import { PostData } from '@/types/post';
 import { Stack } from 'expo-router';
 import { useState } from 'react';
-import { Text, StyleSheet, View, FlatList, Pressable, Modal } from 'react-native';
+import { Text, View, StyleSheet, FlatList, Pressable, Modal } from 'react-native';
 
 export default function HomeScreen() {
 
@@ -29,7 +29,11 @@ export default function HomeScreen() {
       ),
     }}
     />
-    <Modal visible></Modal>
+    
+    <Modal>
+    visible
+    </Modal>
+    
     <FlatList
     data={posts}
     ItemSeparatorComponent={() => <View style={{height: 12}}></View>}
