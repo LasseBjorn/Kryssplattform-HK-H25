@@ -2,6 +2,7 @@ import { PostData } from "@/types/post";
 import EvilIcons from "@expo/vector-icons/EvilIcons";
 import { router } from "expo-router";
 import { Image, Pressable, StyleSheet, Text, View } from "react-native";
+import React from "react";
 
 export type PostProps = {
   postData: PostData;

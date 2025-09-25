@@ -1,5 +1,6 @@
 import { useAuthSession } from "@/providers/authctx";
 import { Link } from "expo-router";
+import React from "react";
 import { useState } from "react";
 import { Pressable, StyleSheet, Text, TextInput, View } from "react-native";
 

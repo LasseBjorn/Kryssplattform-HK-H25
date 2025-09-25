@@ -7,6 +7,7 @@ import {
   useEffect,
   useState,
 } from "react";
+import React from "react";
 
 type AuthContextType = {
   signIn: (userName: string) => void;

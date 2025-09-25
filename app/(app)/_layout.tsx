@@ -3,6 +3,7 @@ import "react-native-reanimated";
 
 import { useAuthSession } from "@/providers/authctx";
 import { Text, View } from "react-native";
+import React from "react";
 
 export default function RootLayout() {
   const { userNameSession, isLoading } = useAuthSession();

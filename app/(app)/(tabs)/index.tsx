@@ -6,7 +6,8 @@ import { useAuthSession } from "@/providers/authctx";
 import { PostData } from "@/types/post";
 import { getData, storeData } from "@/utils/local-storage";
 import { Stack } from "expo-router";
-import { useEffect, useState } from "react";
+import React, { useEffect, useState } from "react";
+
 
 export default function HomeScreen() {
   const [isModalVisible, setIsModalVisible] = useState(false);
